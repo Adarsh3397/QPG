@@ -58,7 +58,7 @@ if(isset($_POST['register_btn'])){
         </tr>
         <tr>
         <td>Email id::</td>
-        <td><input type="email" name="email" class="textInput"</td>
+        <td><input type="text" name="email" class="textInput"</td>
         </tr>
     <tr>
         <td>Password:</td>
@@ -74,8 +74,6 @@ if(isset($_POST['register_btn'])){
         </tr>
         
     </table>
-    </form><center>
-    <h3>Already Registered then </h3> <a href="login.php"><h3>Login</h3></a>
-    </center>
+    </form>
 </body>
 </html>
